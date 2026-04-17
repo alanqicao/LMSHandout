@@ -343,7 +343,7 @@ namespace LMS_CustomIdentity.Controllers
                               join ac in db.AssignmentCategories on a.Category equals ac.CategoryId
                               join c in db.Classes on ac.InClass equals c.ClassId
                               join cor in db.Courses on c.Listing equals cor.CatalogId
-                              where cor.Department == subject && cor.Number == num && c.Season == season && c.Year == year && ac.Name == category && a.Name == asgname && stu.UId == stu.UId
+                              where cor.Department == subject && cor.Number == num && c.Season == season && c.Year == year && ac.Name == category && a.Name == asgname && stu.UId == uid
                               select s;
 
             if (submissions.Any()) 

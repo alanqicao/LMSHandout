@@ -114,10 +114,15 @@ namespace LMS.Controllers
                         join c in db.Classes on ac.InClass equals c.ClassId
                         join e in db.Enrolleds on c.ClassId equals e.Class
                         join cor in db.Courses on c.Listing equals cor.CatalogId
-                        join s in db.Submissions on a.AssignmentId equals s.Assignment into grouped
-                        from sub in grouped.DefaultIfEmpty()
+                        join s in db.Submissions 
+                        on new { AssignmentId = a.AssignmentId, Student = uid } 
+                            equals new { AssignmentId = s.Assignment, Student = s.Student } 
+                            into joined
+                        from sub in joined.DefaultIfEmpty()
 
-                        where cor.Department == subject && cor.Number == num && c.Season == season && c.Year == year && e.Student == uid
+                        where cor.Department == subject 
+                              && cor.Number == num && c.Season == season 
+                              && c.Year == year && e.Student == uid
                         select new
                         {
                             aname = a.Name,
