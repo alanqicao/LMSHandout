@@ -161,7 +161,7 @@ namespace LMS.Controllers
             var submissionContent = (
                     from s in db.Submissions
                     join a in db.Assignments on s.Assignment equals a.AssignmentId
-                    where a.AssignmentId == assignmentId
+                    where a.AssignmentId == assignmentId && s.Student == uid
                     select s.SubmissionContents).FirstOrDefault();
 
             if (submissionContent != null)

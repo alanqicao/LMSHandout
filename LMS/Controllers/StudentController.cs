@@ -152,8 +152,18 @@ namespace LMS.Controllers
           string category, string asgname, string uid, string contents)
         {
             var assignment = (from a in db.Assignments
-                              where a.Name == asgname
+                              join ac in db.AssignmentCategories on a.Category equals ac.CategoryId
+                              join c in db.Classes on ac.InClass equals c.ClassId
+                              join cor in db.Courses on c.Listing equals cor.CatalogId
+                              where a.Name == asgname && cor.Department == subject 
+                              && cor.Number == num && c.Season == season && c.Year == year
+                              && ac.Name == category
                               select a).FirstOrDefault();
+
+            if (assignment == null) 
+            {
+                return Json(new { success = false });
+            }
 
             if (db.Submissions.Any(s => s.Student == uid && s.Assignment == assignment.AssignmentId))
             {
@@ -163,7 +173,7 @@ namespace LMS.Controllers
                      join ac in db.AssignmentCategories on a.Category equals ac.CategoryId
                      join c in db.Classes on ac.InClass equals c.ClassId
                      join cor in db.Courses on c.Listing equals cor.CatalogId
-                     where s.Student == uid && cor.Department == subject && c.Season == season && c.Year == year && cor.Number == num && ac.Name == category
+                     where s.Student == uid && cor.Department == subject && c.Season == season && c.Year == year && cor.Number == num && ac.Name == category && a.Name == asgname
                      select s).FirstOrDefault();
 
                 if (query != null)
@@ -181,14 +191,9 @@ namespace LMS.Controllers
             }
             else
             {
-
-                var query =
-                             from a in db.Assignments
-                             where a.Name == asgname
-                             select a.AssignmentId;
-                                  
+                               
                 Submission submit = new Submission();
-                submit.Assignment = query.FirstOrDefault();
+                submit.Assignment = assignment.AssignmentId;
                 submit.Student = uid;
                 submit.Score = 0;
                 submit.SubmissionContents = contents;
@@ -222,7 +227,7 @@ namespace LMS.Controllers
             var course =
                         from cor in db.Courses
                         join c in db.Classes on cor.CatalogId equals c.Listing
-                        where cor.Number == num && c.Season == season && c.Year == year
+                        where cor.Number == num && c.Season == season && c.Year == year && cor.Department == subject
                         select c.ClassId;
 
             if (query.Any())

@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|solutionrelative:lms\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|d:\\windows\\documents\\uofu\\2026\\spring\\data\\phase3\\lmshandout\\lms\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|solutionrelative:lms\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|d:\\windows\\documents\\uofu\\2026\\spring\\data\\phase3\\lmshandout\\lms\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|solutionrelative:lms\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|d:\\windows\\documents\\uofu\\2026\\spring\\data\\phase3\\lmshandout\\lms\\controllers\\commoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|solutionrelative:lms\\controllers\\commoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|d:\\windows\\documents\\uofu\\2026\\spring\\data\\phase3\\lmshandout\\lms\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|solutionrelative:lms\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|d:\\windows\\documents\\uofu\\2026\\spring\\data\\phase3\\lmshandout\\lms\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,20 +54,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\windows\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "LMS\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\windows\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Controllers\\HomeController.cs",
               "RelativeToolTip": "LMS\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-12T00:49:00.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProfessorController.cs",
               "DocumentMoniker": "D:\\windows\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Controllers\\ProfessorController.cs",
               "RelativeDocumentMoniker": "LMS\\Controllers\\ProfessorController.cs",
@@ -75,8 +75,7 @@
               "RelativeToolTip": "LMS\\Controllers\\ProfessorController.cs",
               "ViewState": "AgIAAM4BAAAAAAAAAAAAAB0CAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T00:48:57.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T00:48:57.726Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "LMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAAA4BAAAAAAAAAAAAAAcBAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T00:29:12.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T00:29:12.632Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "LMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-12T00:27:59.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T00:27:59.33Z"
             },
             {
               "$type": "Document",
@@ -130,13 +127,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CommonController.cs",
               "DocumentMoniker": "D:\\windows\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Controllers\\CommonController.cs",
               "RelativeDocumentMoniker": "LMS\\Controllers\\CommonController.cs",
               "ToolTip": "D:\\windows\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Controllers\\CommonController.cs",
               "RelativeToolTip": "LMS\\Controllers\\CommonController.cs",
-              "ViewState": "AgIAANUAAAAAAAAAAAAAAOMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAawHMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-11T23:26:07.603Z",
               "EditorCaption": ""
@@ -159,9 +156,9 @@
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\windows\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "LMS\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\windows\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "LMS\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAUBAAAAAAAAAAAQwA8BAAAjAAAAAAAAAA==",
+              "ToolTip": "D:\\windows\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Controllers\\StudentController.cs*",
+              "RelativeToolTip": "LMS\\Controllers\\StudentController.cs*",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAcwKEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-10T20:13:35.314Z",
               "EditorCaption": ""
@@ -176,8 +173,7 @@
               "RelativeToolTip": "LMS\\Controllers\\AdministratorController.cs",
               "ViewState": "AgIAAJMAAAAAAAAAAAAAAKsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-12T00:49:05.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-12T00:49:05.304Z"
             }
           ]
         }
