@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\caose_000\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|c:\\users\\caose_000\\documents\\uofu\\2026\\spring\\data\\phase3\\lmshandout\\lms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|solutionrelative:lms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|c:\\users\\caose_000\\documents\\uofu\\2026\\spring\\data\\phase3\\lmshandout\\lms\\models\\lmsmodels\\assignmentcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|solutionrelative:lms\\models\\lmsmodels\\assignmentcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|c:\\users\\caose_000\\documents\\uofu\\2026\\spring\\data\\phase3\\lmshandout\\lms\\models\\lmsmodels\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|solutionrelative:lms\\models\\lmsmodels\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|c:\\users\\caose_000\\documents\\uofu\\2026\\spring\\data\\phase3\\lmshandout\\lms\\models\\lmsmodels\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7779DCA-6458-4556-ABC4-E8D6A159851E}|LMS\\LMS.csproj|solutionrelative:lms\\models\\lmsmodels\\administrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AssignmentCategory.cs",
+              "DocumentMoniker": "C:\\Users\\caose_000\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Models\\LMSModels\\AssignmentCategory.cs",
+              "RelativeDocumentMoniker": "LMS\\Models\\LMSModels\\AssignmentCategory.cs",
+              "ToolTip": "C:\\Users\\caose_000\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Models\\LMSModels\\AssignmentCategory.cs",
+              "RelativeToolTip": "LMS\\Models\\LMSModels\\AssignmentCategory.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T03:49:15.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "C:\\Users\\caose_000\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Models\\LMSModels\\Assignment.cs",
+              "RelativeDocumentMoniker": "LMS\\Models\\LMSModels\\Assignment.cs",
+              "ToolTip": "C:\\Users\\caose_000\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Models\\LMSModels\\Assignment.cs",
+              "RelativeToolTip": "LMS\\Models\\LMSModels\\Assignment.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T03:49:09.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Administrator.cs",
+              "DocumentMoniker": "C:\\Users\\caose_000\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Models\\LMSModels\\Administrator.cs",
+              "RelativeDocumentMoniker": "LMS\\Models\\LMSModels\\Administrator.cs",
+              "ToolTip": "C:\\Users\\caose_000\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Models\\LMSModels\\Administrator.cs",
+              "RelativeToolTip": "LMS\\Models\\LMSModels\\Administrator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T03:49:06.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\caose_000\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Program.cs",
+              "RelativeDocumentMoniker": "LMS\\Program.cs",
+              "ToolTip": "C:\\Users\\caose_000\\Documents\\UOFU\\2026\\Spring\\Data\\Phase3\\LMSHandout\\LMS\\Program.cs",
+              "RelativeToolTip": "LMS\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T03:43:52.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
